@@ -4,4 +4,4 @@ install:
 	echo "this will later be a pip install command"
 	pip3 install --upgrade pip3 && pip install -r requirements.txt
 test:
-    python3 -m pytest -vv test_hello.py
+	python3 -m pytest -vv test_hello.py
